@@ -25,11 +25,13 @@ The data includes the following fields:
 - e: String variable, Dummy variable (always 1)
 
 **Analysis**
-In the Jupyter Notebook, the data is loaded into a Pandas DataFrame and then cleaned and transformed to make it easier to work with. The following steps are performed:
+In the Jupyter Notebook, the data is loaded into a Pandas DataFrame and then cleaned and transformed to make it easier to work with. 
 
-Removing duplicates
-Parsing dates and creating new columns for year, month, day, hour, and minute
-Creating new columns for day of the week, and whether the call was made during the day or at night
-Grouping the data by the reason for the emergency call
+The following steps are performed:
+
+- Removing duplicates
+- Parsing dates and creating new columns for year, month, day, hour, and minute
+- Creating new columns for day of the week, and whether the call was made during the day or at night
+- Grouping the data by the reason for the emergency call
 Finally, the data is visualized using Matplotlib and Seaborn to better understand the distribution of emergency calls and the reasons behind them.
 

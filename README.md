@@ -10,21 +10,21 @@ Pandas
 Matplotlib
 Seaborn
 
-
-Dataset
+**Dataset**
 The dataset used in this project was obtained from Kaggle and contains information on emergency calls made to 911 in Montgomery County, PA. 
 The data includes the following fields:
 
 - lat: String variable, Latitude
 - lng: String variable, Longitude
-desc: String variable, Description of the Emergency Call
-zip: String variable, Zipcode
-title: String variable, Title
-timeStamp: String variable, YYYY-MM-DD HH:MM:SS
-twp: String variable, Township
-addr: String variable, Address
-e: String variable, Dummy variable (always 1)
-Analysis
+- desc: String variable, Description of the Emergency Call
+- zip: String variable, Zipcode
+- title: String variable, Title
+- timeStamp: String variable, YYYY-MM-DD HH:MM:SS
+- twp: String variable, Township
+- addr: String variable, Address
+- e: String variable, Dummy variable (always 1)
+
+**Analysis**
 In the Jupyter Notebook, the data is loaded into a Pandas DataFrame and then cleaned and transformed to make it easier to work with. The following steps are performed:
 
 Removing duplicates

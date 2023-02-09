@@ -15,8 +15,8 @@ Dataset
 The dataset used in this project was obtained from Kaggle and contains information on emergency calls made to 911 in Montgomery County, PA. 
 The data includes the following fields:
 
-lat: String variable, Latitude
-lng: String variable, Longitude
+- lat: String variable, Latitude
+- lng: String variable, Longitude
 desc: String variable, Description of the Emergency Call
 zip: String variable, Zipcode
 title: String variable, Title
